@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Campus Event Management
 
-## Getting Started
+This project is a **Next.js**-based web application for managing campus events. Follow the steps below to set up and run the project locally.
 
-First, run the development server:
+## **Prerequisites**
+Make sure you have the following installed before proceeding:
+- [Node.js (latest version)](https://nodejs.org/)
+- npm (comes with Node.js)
+- Git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Installation & Setup**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Sachin-Sahu149/E-Hackathon.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Navigate to the project directory:**
+   ```sh
+   cd E-Hackathon/campus-event-management
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-## Learn More
+4. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+5. **Open the project in your browser:**
+   - The app will be available at **http://localhost:3000**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **Additional Information**
+- This project uses **Next.js**, **React**, and **Tailwind CSS**.
+- If you encounter an error like `'next' is not recognized`, run:
+  ```sh
+  npm install next react react-dom
+  ```
+- To stop the development server, press **CTRL + C** in the terminal.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## **Contributing**
+If you'd like to contribute:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Make your changes and commit (`git commit -m "Your message"`)
+4. Push to your branch (`git push origin feature-branch`)
+5. Open a pull request
 
-## Deploy on Vercel
+## **License**
+This project is open-source and available under the MIT License.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
